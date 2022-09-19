@@ -6,7 +6,6 @@ pipeline {
         input(message: 'Hello World!', ok: 'Submit')
         sh '''
           hostname
-          cat /etc/redhat-release
         '''
       }
     }
